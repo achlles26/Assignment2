@@ -1,0 +1,70 @@
+body {
+	
+	margin: 0px;
+	background-color: #f8f8f8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	
+	font-family: "Poppins", sans-seriff;
+}
+
+p, a, li, figcaption{
+	
+	font-family: "Roboto", sans-seriff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+header {
+	
+	display: flex;
+	align-items: center;
+	height: 150px;
+	background-color: #f8f8f8;
+}
+
+header > div{
+	
+	height: 145px;
+	width: auto;
+	flex-grow: 1;
+}
+
+header > div > a > img {
+	
+	width: auto;
+	height: 100%;
+}
+
+header > nav > menu {
+	
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px;
+	display: flex;
+}
+
+header > nav > menu > li {
+	
+	padding: 0px 10px;
+}
+
+header > nav > menu > li > a {
+	
+	color: #0e0e0e;
+}
+
+main {
+	
+	display:flex;
+	width: 75%;
+	align-items: center;
+}
+
+aside {
+	
+	display: flex;
+	width: 25%;
+	align-items: center;
+}
